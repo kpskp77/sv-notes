@@ -24,7 +24,7 @@ input 表示将外部关联信号采样到对应的 clockvar，只能读；outpu
 
 input skew 用于控制采样提前量（参见 [input 采样](#input-采样)），默认的 input skew 是 `#1step`；output skew 用于控制驱动的延迟量，默认的 output skew 是 `#0`（参见 [output 驱动](#output-驱动)）。
 
-![clocking block 的 input/output skew 示意图](/assets/images/clocking-block-input-output-skew.png)
+![clocking block 的 input/output skew 示意图](./assets/images/clocking-block-input-output-skew.png)
 
 支持灵活调整 input 和 output skew:
 
@@ -136,7 +136,7 @@ endmodule
 
 dut 波形如下：
 
-![简单时序逻辑的 clocking block 时序图](/assets/images/clocking-block-simple-clk.png)
+![简单时序逻辑的 clocking block 时序图](./assets/images/clocking-block-simple-clk.png)
 
 第 40 行在 `clk` 信号对应 clock event 被唤醒（observed event region），第 41 行 `m_if.cb.a` 的采样值是关联信号 `a` 在 `1step` 之前的 postponed event region 的值（即，跳变前的值），对 `b` 的驱动发生在 Re-NBA event region。
 
@@ -229,4 +229,4 @@ endmodule
 
 dut 波形如下：
 
-![复杂时序逻辑的 clocking block 时序图](/assets/images/clocking-block-complicated-clk-cb.png)
+![复杂时序逻辑的 clocking block 时序图](./assets/images/clocking-block-complicated-clk-cb.png)

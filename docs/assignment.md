@@ -171,7 +171,7 @@ module test;
 endmodule
 ```
 
-![assign vs always 时序图](/assets/images/assign-vs-always-example.png)
+![assign vs always 时序图](./assets/images/assign-vs-always-example.png)
 
 r 在 @1 和 @4 的变化之间隔了 3 个时间单位，满足 #2 的时延要求，a/b/c/d/e 均在 @3 由 x 变为 1。r 在 @4 和 @5 的变化之间只有一个时间单位，不满足 #2 的时延要求，a/b/c/d/e 表现不尽相同：
 
