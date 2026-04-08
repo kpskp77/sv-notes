@@ -1,0 +1,14 @@
+[project]
+name = "sv"
+version = "0.1.0"
+description = "SystemVerilog Learning Notes"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "mkdocs",
+  "mkdocs-material",
+  "mkdocs-print-site-plugin",
+  "mkdocs-enumerate-headings-plugin",
+  "mkdocs-img2fig-plugin",
+  "jieba",
+]

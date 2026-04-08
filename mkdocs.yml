@@ -1,0 +1,56 @@
+site_name: SystemVerilog 学习笔记
+site_author: Carousel
+site_url: https://kpskp77.github.io/sv-notes/
+
+nav:
+  - Home: index.md
+  - schedule.md
+  - assignment.md
+  - clocking.md
+
+theme:
+  name: material
+  language: zh
+  font:
+    code: JetBrains Mono
+  features:
+    - search.suggest
+    - search.highlight
+    - navigation.tracking
+    - navigation.path
+
+plugins:
+  - offline
+  - search:
+      separator: "[\\s\\u200b\\-]+"
+  - enumerate-headings:
+      exclude:
+        - index.md
+  - img2fig
+  - print-site:
+      add_to_navigation: true
+      cover_page_template: "docs/assets/templates/cover_page.tpl"
+      exclude:
+        - index.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+      lang_prefix: language-
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - tables
