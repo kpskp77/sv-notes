@@ -1,5 +1,7 @@
 .venv/
-site/
+node_modules/
+docs/.vitepress/dist/
+docs/.vitepress/cache/
 .idea/
 *.pyc
 __pycache__/
