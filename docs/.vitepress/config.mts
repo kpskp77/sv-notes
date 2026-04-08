@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'SystemVerilog 学习笔记',
   description: 'SystemVerilog 语言核心概念与验证特性',
+  base: '/sv-notes/',
   appearance: 'dark',
   themeConfig: {
     nav: [
@@ -30,6 +31,6 @@ export default defineConfig({
     }
   },
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }]
+    ['link', { rel: 'icon', href: '/sv-notes/favicon.ico' }]
   ]
 })
