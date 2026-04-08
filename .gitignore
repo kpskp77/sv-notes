@@ -1,8 +1,5 @@
-.venv/
 node_modules/
 docs/.vitepress/dist/
 docs/.vitepress/cache/
 .idea/
-*.pyc
-__pycache__/
 .DS_Store

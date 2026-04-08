@@ -30,7 +30,4 @@ export default defineConfig({
       copyright: 'Copyright © 2024 Carousel'
     }
   },
-  head: [
-    ['link', { rel: 'icon', href: '/sv-notes/favicon.ico' }]
-  ]
 })

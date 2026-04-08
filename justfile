@@ -4,12 +4,14 @@ set unstable
 default:
   @just --list
 
-[script]
-[doc('create http server for notes')]
+[doc('start local dev server')]
 serve:
-  if [ -f conf.py ]; then
-    uv run sphinx-build -M html . _build
-    uv run python -m http.server -d _build/html -b 127.0.0.1 8000
-  else
-    uv run mkdocs serve
-  fi
+  pnpm docs:dev
+
+[doc('build for production')]
+build:
+  pnpm docs:build
+
+[doc('preview production build')]
+preview:
+  pnpm docs:preview

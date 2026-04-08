@@ -1,6 +1,6 @@
 # SystemVerilog 学习笔记
 
-基于 MkDocs Material 构建的 SystemVerilog 语言学习笔记，涵盖调度语义、赋值语句、Clocking Block 等核心概念。
+基于 VitePress 构建的 SystemVerilog 语言学习笔记，涵盖调度语义、赋值语句、Clocking Block 等核心概念。
 
 ## 在线访问
 
@@ -10,10 +10,10 @@ https://kpskp77.github.io/sv-notes/
 
 ```bash
 # 安装依赖
-pip install mkdocs-material mkdocs-enumerate-headings-plugin
+pnpm install
 
 # 启动本地服务器
-mkdocs serve
+pnpm docs:dev
 ```
 
 ## 目录
