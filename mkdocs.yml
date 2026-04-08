@@ -31,9 +31,6 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.highlight:
       anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
-      lang_prefix: language-
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
