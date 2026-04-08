@@ -33,9 +33,7 @@ jobs:
         run: |
           pip install \
             mkdocs-material \
-            mkdocs-img2fig \
-            mkdocs-print-site-plugin \
-            enumerate-headings
+            mkdocs-enumerate-headings-plugin
 
       - name: Build site
         run: mkdocs build

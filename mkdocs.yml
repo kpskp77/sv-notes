@@ -25,12 +25,6 @@ plugins:
   - enumerate-headings:
       exclude:
         - index.md
-  - img2fig
-  - print-site:
-      add_to_navigation: true
-      cover_page_template: "docs/assets/templates/cover_page.tpl"
-      exclude:
-        - index.md
 
 markdown_extensions:
   - admonition
