@@ -33,8 +33,6 @@ jobs:
         run: |
           pip install \
             mkdocs-material \
-            mkdocs-material[info] \
-            mkdocs-offline \
             mkdocs-img2fig \
             mkdocs-print-site-plugin \
             enumerate-headings
