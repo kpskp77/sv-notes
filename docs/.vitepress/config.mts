@@ -5,6 +5,18 @@ export default defineConfig({
   description: 'SystemVerilog 语言核心概念与验证特性',
   base: '/sv-notes/',
   appearance: 'dark',
+  markdown: {
+    theme: {
+      light: 'github-light',
+      dark: 'github-dark'
+    },
+    languagePacks: [{ lang: 'system-verilog' }],
+    languageAlias: {
+      systemverilog: 'system-verilog',
+      sv: 'system-verilog',
+      SV: 'system-verilog'
+    }
+  },
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
