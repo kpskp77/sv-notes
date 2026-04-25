@@ -10,10 +10,10 @@ https://kpskp77.github.io/sv-notes/
 
 ```bash
 # 安装依赖
-pnpm install
+bun install
 
 # 启动本地服务器
-pnpm docs:dev
+bun docs:dev
 ```
 
 ## 目录
